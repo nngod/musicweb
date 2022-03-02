@@ -1,0 +1,46 @@
+[
+    {
+        "name":"说好不哭",
+        "singer":"周杰伦/五月天阿信",
+        "sing_zhuanji":"说好不哭",
+        "time":"03:42",
+        "link_url":"../muscinfo/music/周杰伦-说好不哭 (With 五月天阿信).mp3",
+        "sing_img": "./img/说好不哭.jpg",
+        "lyric":"./muscinfo/lyric/说好不哭.lrc"
+        
+    },
+
+
+    {
+        "name":"等你下课",
+        "singer":"周杰伦",
+        "sing_zhuanji":"等你下课",
+        "time":"04:30",
+        "link_url":"../muscinfo/music/周杰伦-等你下课(with 杨瑞代).mp3",
+        "sing_img": "./img/等你下课.jpg",
+        "lyric":"./muscinfo/lyric/等你下课.lrc"
+        
+    },
+    
+
+    {
+        "name":"一路向北",
+        "singer":"周杰伦",
+        "sing_zhuanji":"J III MP3 Player",
+        "time":"04:55",
+        "link_url":"../muscinfo/music/周杰伦-一路向北 (电影《头文字Ｄ》插曲).mp3",
+        "sing_img": "./img/一路向北.jpg",
+        "lyric":"./muscinfo/lyric/一路向北.lrc"
+        
+    }
+
+
+  
+
+
+   
+
+
+
+
+]

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>音乐馆</title>
+    <link
+      rel="stylesheet"
+      href="./malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.css"
+    />
+    <link rel="Shortcut Icon" href="./img/mul.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="./index.css" />
+    <script src="jquery-3.5.1.js"></script>
+    <script src="./malihu-custom-scrollbar-plugin-master/jquery.mCustomScrollbar.js"></script>
+    <script src="./play.js"></script>
+    <script src="./progress.js"></script>
+    <script src="./lyric.js"></script>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div class="head">
+      <h1 class="logo">
+        <a href="javascript:;"></a>
+      </h1>
+
+      <ul class="register">
+        <li>
+          <a href="javascript:;">登录</a>
+        </li>
+
+        <li>
+          <a href="javascript:;">设置</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="content">
+      <div class="content_in">
+        <div class="content_in_left">
+          <div class="content_in_left_head">
+            <a href="javascript:;"><i></i>收藏</a>
+            <a href="javascript:;"><i></i>添加到</a>
+            <a href="javascript:;"><i></i>下载</a>
+            <a href="javascript:;"><i></i>删除</a>
+            <a href="javascript:;"><i></i>清空列表</a>
+          </div>
+          <div class="content_in_left_li">
+            <li class="title">
+              <div class="li_check"><i></i></div>
+              <div class="li_sing">歌曲</div>
+              <div class="li_singer">歌手</div>
+              <div class="li_time">时间</div>
+            </li>
+
+            <ul class="music">
+              <!-- <li class="li_content">
+                <div class="li_content_check">
+                  <i></i>
+                  <span class="li_content_span">
+                    <img src="./img/wave.gif" alt="" class="li_content_img" />
+                    <span class="li_conten_num">1</span>
+                  </span>
+                </div>
+                <div class="li_content_sing">
+                  好想爱这个世界啊
+                  <div class="li_content_menu">
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+
+                <div class="li_content_singer">华晨宇</div>
+
+                <div class="li_content_time">
+                  <span class="time">04:18</span>
+                  <div class="li_content_del">
+                    <a href="javascript:;"></a>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+
+        <div class="content_in_right">
+          <div class="right_song">
+            <a href="javascript:;" class="songs_info">
+              <div class="songs_pic">
+                <img src="./img/album_cover_player.png" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="right_song_info">
+            <div class="songs_name">
+              <span>歌曲名:&nbsp;&nbsp;</span>
+              <a href="javascript:;">好想爱这个世界啊</a>
+            </div>
+
+            <div class="songser">
+              <span>歌手名:&nbsp;&nbsp;</span>
+              <a href="javascript:;">华晨宇</a>
+            </div>
+
+            <div class="songs_zhuanji">
+              <span>专辑名:&nbsp;&nbsp;</span>
+              <a href="javascript:;">孤独</a>
+            </div>
+          </div>
+
+          <div class="songs_lyric_content">
+            <div class="songs_lyric"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="footer_in">
+        <a href="javascript:;" class="btn_last"></a>
+        <a href="javascript:;" class="suspend" id="play"></a>
+        <a href="javascript:;" class="btn_next"></a>
+
+        <div class="progress">
+          <div class="progress_top">
+            <div class="js_songinfo">
+              <a class="js_song">哈哈哈哈</a>
+              <span> - </span>
+              <a class="js_singer">哈哈哈</a>
+            </div>
+
+            <div class="js_timeinfo">
+              <span class="time_start">00:00</span>
+              <span> / </span>
+              <span class="tine_end">04:56</span>
+            </div>
+          </div>
+
+          <div class="progress_content">
+            <div class="progress_contentinfo">
+              <div class="progress_contentinfo_line">
+                <div class="progress_dot"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    <audio class="music_play"></audio>
+  </body>
+</html>
